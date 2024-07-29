@@ -4,4 +4,10 @@ function getComputerChoice() {
   return choices[randomIndex];
 }
 
+function getHumanChoice() {
+  let humanChoice = window.prompt("What's your choice?");
+  return humanChoice;
+}
+
 console.log(getComputerChoice());
+console.log(getHumanChoice());
